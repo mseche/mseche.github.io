@@ -24,12 +24,14 @@ SQL injection UNION attacks are possible when an application is already vulnerab
 - The data types in each column must be compatible between the individual queries.
 
 *SQL Injection UNION attack example:*
-URL Encoded UNION query: <http://ptl-f99df351-3bdd4c8f.libcurl.so/cat.php?id=1%20UNION%20SELECT%201,concat(login,%27:%27,password),3,4%20FROM%20users>
+
+```URL Encoded UNION query: <http://ptl-f99df351-3bdd4c8f.libcurl.so/cat.php?id=1%20UNION%20SELECT%201,concat(login,%27:%27,password),3,4%20FROM%20users>
 Decoded UNION query: http://ptl-f99df351-3bdd4c8f.libcurl.so/cat.php?id=1 UNION SELECT 1,concat(login,':',password),3,4 FROM users
+```
 
 Because a UNION injection attack requires individual queries to return the same number of columns from a table, a string concatenation can be performed to bypass column-number-matching issues. In the example above, the text to the left of the UNION keyword is a url query parameter where the SQL command is set to "id". Columns 3 and 4 from the users table is set to match column 1, where the second matching pair is a concatenation of "login" and "password" separated by a colon. To comply with the first requirement of SQL injection UNION attacks, a string concatenation is required to ensure that the individual queries return the same number of columns. This allows for multiple values to be retrieved within a single column.
 
-####Mitigation
+#### Mitigation  
 Two ways of mitigating injection attack vulnerabilities:
 1. Whitelist approaches to allowing user-input data is an easier way to prevent code injections
 2. Encoding user-supplied data can prevent XSS and accounts for the wide variety of programming languages that can be used to execute an injection attack.
@@ -323,11 +325,10 @@ Sufficient logging and monitoring are two foundational components for protecting
 #### How it Works / Scenario
 The first two steps in hacking a network are footprinting and scanning. Footprinting is the reconnaissance phase of an attack where a malicious user will work to identify key information about a business, such as its network topography, organizational data, operating systems, etc. Scanning is the more intrusive step where an attacker will actively engage and probe a target network. In this second phase an attacker will seek to identify things like open ports, operating systems, services or processes running, the presence of firewalls, addresses of routers or other devices, and existing known vulnerabilities.
 
-A network intrusion detection system that is properly configured should be able to log an attackers activity and, if the attacker is sloppy or overly aggressive, it should flag their behavior as malicious and would send an alert to network administrators. A poorly configured logging and monitoring might miss these red flags which could permit an attacker to breach a company network without being noticed. Similarly, a well-configured network monitoring system that is itself not monitored could also enable an attacker to work freely within or around a system.
+##### A network intrusion detection system that is properly configured should be able to log an attackers activity and, if the attacker is sloppy or overly aggressive, it should flag their behavior as malicious and would send an alert to network administrators. A poorly configured logging and monitoring might miss these red flags which could permit an attacker to breach a company network without being noticed. Similarly, a well-configured network monitoring system that is itself not monitored could also enable an attacker to work freely within or around a system.
 ---
-###Sources
-
--OWASP.org
--Acunetix.com
--Portswigger.net
--"The Web Application Hacker's Handbook, Second Edition", by Dafydd Stuttard and Marcus Pinto
+### Sources    
+-OWASP.org    
+-Acunetix.com    
+-Portswigger.net    
+-"The Web Application Hacker's Handbook, Second Edition", by Dafydd Stuttard and Marcus Pinto    
