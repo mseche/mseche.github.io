@@ -1,1 +1,59 @@
 theme: jekyll-theme-slate
+
+#------------------------------------------------------------------------------
+# General
+name: "Michael Seche"
+description: "Analyst focused on web application vulnerabilities, network security, and malware analysis."
+language: "en"
+
+url: https://mseche.github.io
+baseurl: ''
+
+#------------------------------------------------------------------------------
+# Markdown processor and code highlighting
+#------------------------------------------------------------------------------
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+#------------------------------------------------------------------------------
+# Pagination and friendly URLs
+#------------------------------------------------------------------------------
+paginate: 2
+paginate_path: /page-:num
+permalink: /:title
+singlepage: resume
+
+# Social share and comments.
+twitter: michaelseche
+github: mseche
+linkedin: michael-seche
+email: michaelseche@gmail.com
+enable-share: false
+
+rss-feed-limit: 10
+rss-show-full: false
+
+#------------------------------------------------------------------------------
+# Configuration, plugins, gems, etc..
+#------------------------------------------------------------------------------
+source: .
+destination: ./_site
+plugins: ['jekyll-paginate']
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/
+
+exclude:
+    - CNAME
+    - Gemfile
+    - LICENSE
+    - README.md
+    - Rakefile
+    - vendor
+    - spec
