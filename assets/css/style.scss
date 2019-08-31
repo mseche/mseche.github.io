@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "{{ site.theme }}";
+
 /* ------------------------------------------------------------------------
 -   SASS variables.
 -------------------------------------------------------------------------*/
@@ -13,6 +15,4 @@ $color-4: #7f8c8d; /* Main menu background */
 
 $font-stack: "Open Sans", sans-serif;
 $font-size: 18px;
-
-@import "{{ site.theme }}";
 
