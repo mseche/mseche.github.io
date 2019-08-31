@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% if site.contact %}
+<section class="main-content">
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    <article class="module color-3">
+        {{ content }}
+    </article>
+
+</section>
+{% else %}
+<div class="main-content">
+    <article class="module color-3">
+            <h1>Contact</h1>
+            <hr>
+            <p>Contact info.</p>
+    </article>
+</div>
+
+{% endif %}
