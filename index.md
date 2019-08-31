@@ -1,38 +1,57 @@
-## Michael Seche II
+## Michael Seche
 
-You can use the [editor on GitHub](https://github.com/mseche/mseche.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Michael Seche is a network and security analyst focused on web application vulnerabilities, network security, and malware analysis. Previously he specialized in security policy in the Middle East and North Africa with an emphasis on sub-state levels of violence (e.g., insurgencies and terrorism).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Seche transitioned into cybersecurity as a response to the growth of US adversaries expanding their cyber capabilities to influence and threaten the interests of the United States and its allies. Aside from the obvious threats posed by state actors like China, Russia, and North Korea, nonstate actors such as the Islamic State and al-Qaeda have also shown an interest and capacity to grow their cyber capabilities.
 
-### Markdown
+While he is currently focused on developing further within the field of cybersecurity, Seche has the long-term goal of integrating his expertise on MENA security with infosec, insha'allah.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Areas of Interest:
+-Web application vulnerabilities:       
+-Network security:        
+-Malware analysis:        
 
-```markdown
-Syntax highlighted code block
+### Credentials:
+Certification | Date Obtained
+------------ | -------------
+CompTIA Network+ | test date on 10/15/2019
+CompTIA Security+ | test date on 11/15/2019
+Certified Ethical Hacker | currently studying
 
-# Header 1
-## Header 2
-### Header 3
+### Education: 
+Education | Degree Type | Date Obtained 
+------------ | ------------- | -------------
+UC San Diego, Extension | Cybersecurity Bootcamp | May-October 2019
+The American University, School of International Service | BA, International Studies | December 2016
+Arab-American Language Institute in Morocco | Immersion Program | Summer 2012
 
-- Bulleted
-- List
+### Languages (programming and human):
+Language | Proficiency
+------------ | ------------
+Python 3 | Intermediate (practical application)
+Bash | Intermediate (practical application)
+HTML | Intermediate (practical application)
+Javascript | Novice (limited experience)
+PHP | Novice (limited experience)
+C | Fundamental Awareness (basic knowledge)
+Modern Standard Arabic | ILR-Level 3 (professional working)
+English | ILR-Level 5 (native) 
 
-1. Numbered
-2. List
+### Tools:
+Tool | Proficiency
+------------ | ------------
+Wireshark | Novice (limited experience )
+BurpSuite | Intermediate (practical application)
+Snort | Novice (limited experience)
+Splunk | Novice (professional working)
+English | ILR-Level 5 (native)
 
-**Bold** and _Italic_ and `Code` text
+### Projects and Writing Samples:
+-[OWASP Top 10: Examples and Walkthroughs](linktobeadded)       
+-For posterity's sake, I wanted to include the first python script I ever wrote:        
+          [Automating Directory Creation](linktobeadded)        
+-[Home Network Map](linktobeadded)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mseche/mseche.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Contact
+Seche can be contacted by email [here](michaelseche@gmail.com) or through social media.
 
