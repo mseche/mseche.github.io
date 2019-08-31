@@ -3,7 +3,7 @@ theme: jekyll-theme-slate
 #------------------------------------------------------------------------------
 # General
 name: "Michael Seche"
-description: "Analyst focused on web application vulnerabilities, network security, and malware analysis."
+description: "Network and security analyst focused on web application vulnerabilities, network security, and malware analysis."
 language: "en"
 
 url: https://mseche.github.io
